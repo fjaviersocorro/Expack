@@ -10,8 +10,8 @@
 /build
 
 
-#front-end
-
+#compilation
+/dist
 
 # misc
 .DS_Store

@@ -1,8 +1,11 @@
-import logMessage from "./js/logger";
-import "./css/style.css"
-
+import React from "react";
+import ReactDOM from "react-dom";
 //Log message to console
-logMessage('Expacktacular')
-if(typeof(module.hot)!== 'undefined'){
-    module.hot.accept() //eslint-disable-line no-undef
-}
+let HelloWorld = () => {
+    return <h1>Hello there World!</h1>
+  }
+
+  ReactDOM.render(
+      <HelloWorld/>,
+      document.getElementById("root")
+  );
